@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Validating User login (failed)" parallel="tests">
+    <classes>
+      <class name="Selenium.E2EAutomation.HomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="homepageNavigation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Selenium.E2EAutomation.HomePage -->
+    </classes>
+  </test> <!-- Validating User login (failed) -->
+</suite> <!-- Failed suite [Suite] -->
